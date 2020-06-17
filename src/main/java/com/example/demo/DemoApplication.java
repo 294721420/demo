@@ -24,6 +24,7 @@ public class DemoApplication {
         public String hello() throws UnknownHostException {
             InetAddress localHost = InetAddress.getLocalHost();
             log.info("{}{}{}",localHost.getHostAddress(),localHost.getCanonicalHostName(),localHost.getHostName());
+            String Slf4jSsdsa = "dfsdf";
             return "hello world!";
         }
     }
